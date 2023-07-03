@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+<style>
+    body {
+        margin : 0;
+    }
+     iframe {
+        display : block;
+        background : #000;
+        border : none;
+        height : 100vh;
+        width : 100vw;
+     }
+
+
+     html {
+  font-family: arial;
+  color: #000000;
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1,
+h2 {
+  color: #2B292E;
+}
+
+input {
+  border: 1px solid #000000;
+  margin-bottom: 15px;
+  min-width: 250px;
+  padding: 8px;
+}
+
+.button {
+  transition-duration: 0.4s;
+  background: #000000;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+button.button:hover {
+  background: #000000;
+}
+
+#cboxLoadedContent {
+  padding: 10px;
+  background: #ffffff;
+}
+
+#modal-content {
+  display: none;
+}
+
+#modal-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#modal-content input {
+  width: 95%;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+</style>
+<main>
+    <body>
+
+       
+
+         
+    <iframe class="responsive-iframe" id="svt_iframe_98f13708210194c475687be6106a3b84" allowfullscreen allow="gyroscope; accelerometer; xr; microphone *" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://virtualspot.id/virtual-tour/viewer/index.php?code=98f13708210194c475687be6106a3b84"></iframe>
+    
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Info Harga
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    
+
+
+
+<script>
+       
+    setTimeout(function() {$('#exampleModal').modal('show');},5000);
+
+    if ($('exampleModal').modal('show')) {
+	setTimeout(function() {$('#exampleModal').modal('hide');}, 7000);
+}
+    
+</script>
+</body>
+</main>
